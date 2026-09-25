@@ -6,12 +6,8 @@
  */
 
 export const SUPABASE_CONFIG = {
-  url:
-    process.env.EXPO_PUBLIC_SUPABASE_URL ||
-    "https://ztvikgbtmsvlqlwotzkf.supabase.co",
-  anonKey:
-    process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY ||
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp0dmlrZ2J0bXN2bHFsd290emtmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTAwOTA5NjIsImV4cCI6MjEwNTY2Njk2Mn0.w_qadkmJXF8F34l_c83TKt19-KaxvkYta97WsL2qHmM",
+  url: process.env.EXPO_PUBLIC_SUPABASE_URL || "",
+  anonKey: process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY || "",
 };
 
 export const STORE_CONFIG = {
@@ -29,7 +25,7 @@ export const STORE_CONFIG = {
 
 export const ADMIN_CONFIG = {
   defaultOwnerEmail: process.env.EXPO_PUBLIC_OWNER_EMAIL || "owner@nivkirana.com",
-  defaultOwnerPassword: process.env.EXPO_PUBLIC_OWNER_PASSWORD || "Owner@123",
+  defaultOwnerPassword: process.env.EXPO_PUBLIC_OWNER_PASSWORD || "",
   ownerLoginAliases: ["owner", "owner@nivkirana.com", "niv027"],
 };
 

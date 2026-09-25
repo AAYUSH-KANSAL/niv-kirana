@@ -10,7 +10,8 @@ describe("owner credentials", () => {
   });
 
   it("requires a verified, matching, new password", () => {
-    expect(validateOwnerPasswordChange(INITIAL_OWNER_PASSWORD, "NewPass@@55", "NewPass@@55").valid).toBe(true);
-    expect(validateOwnerPasswordChange(INITIAL_OWNER_PASSWORD, "short", "short").valid).toBe(false);
+    const currentPassword = INITIAL_OWNER_PASSWORD || "Owner@123";
+    expect(validateOwnerPasswordChange(currentPassword, "NewPass@@55", "NewPass@@55").valid).toBe(true);
+    expect(validateOwnerPasswordChange(currentPassword, "short", "short").valid).toBe(false);
   });
 });
