@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 48" fill="none">
+  <rect x="4" y="6" width="36" height="36" rx="10" fill="#176B45"/>
+  <path d="M14 28V20M22 28V16M30 28V22" stroke="#A7D948" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="22" cy="14" r="2.5" fill="#FFF9EF"/>
+  <path d="M12 28C14 32 30 32 32 28" stroke="#FFF9EF" stroke-width="2" stroke-linecap="round"/>
+  <text x="48" y="26" font-family="Plus Jakarta Sans, sans-serif" font-size="17" font-weight="800" fill="#14221B" letter-spacing="-0.3">NIV<tspan fill="#176B45">KIRANA</tspan></text>
+  <text x="49" y="37" font-family="Plus Jakarta Sans, sans-serif" font-size="9" font-weight="600" fill="#6B7280" letter-spacing="0.5">APNI DUKAAN • 15 MIN</text>
+</svg>
